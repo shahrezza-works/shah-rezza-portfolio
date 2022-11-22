@@ -35,6 +35,11 @@ export default function Header() {
           fgColor="gray"
           bgColor="transparent"
         />
+        <SocialIcon
+          url="https://github.com/shahrezza-works"
+          fgColor="gray"
+          bgColor="transparent"
+        />
       </motion.div>
       <motion.div
         initial={{ x: 500, opacity: 0, scale: 0.3 }}
