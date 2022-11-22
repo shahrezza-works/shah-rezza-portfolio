@@ -22,13 +22,7 @@ export default function Hero() {
       <Image
         width={150}
         height={150}
-        style={{
-          position: "relative",
-          borderRadius: "50%",
-          marginLeft: "auto",
-          marginRight: "auto",
-          objectFit: "cover",
-        }}
+        className="relative rounded-full mx-auto object-cover"
         src={photo}
         alt="shah rezza photo"
       />
